@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="appiumBasics.ScrollGesture">
+      <class name="appiumBasics.KeysActionPerforms">
         <methods>
+          <include name="keyActions"/>
           <include name="tearDown"/>
-          <include name="scrollGestureActMethod1"/>
           <include name="AppiumConfigure"/>
         </methods>
-      </class> <!-- appiumBasics.ScrollGesture -->
+      </class> <!-- appiumBasics.KeysActionPerforms -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

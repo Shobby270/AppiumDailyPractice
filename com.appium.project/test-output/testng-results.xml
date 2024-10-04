@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-10-02T16:43:28 IST" name="Default suite" finished-at="2024-10-02T16:43:50 IST" duration-ms="21281">
+  <suite started-at="2024-10-03T16:42:25 IST" name="Default suite" finished-at="2024-10-03T16:42:53 IST" duration-ms="28861">
     <groups>
     </groups>
-    <test started-at="2024-10-02T16:43:28 IST" name="Default test" finished-at="2024-10-02T16:43:50 IST" duration-ms="21281">
-      <class name="appiumBasics.ScrollGesture">
-        <test-method is-config="true" signature="AppiumConfigure()[pri:0, instance:appiumBasics.ScrollGesture@45752059]" started-at="2024-10-02T16:43:28 IST" name="AppiumConfigure" finished-at="2024-10-02T16:43:40 IST" duration-ms="11189" status="PASS">
+    <test started-at="2024-10-03T16:42:25 IST" name="Default test" finished-at="2024-10-03T16:42:53 IST" duration-ms="28861">
+      <class name="appiumBasics.KeysActionPerforms">
+        <test-method is-config="true" signature="AppiumConfigure()[pri:0, instance:appiumBasics.KeysActionPerforms@292b08d6]" started-at="2024-10-03T16:42:25 IST" name="AppiumConfigure" finished-at="2024-10-03T16:42:35 IST" duration-ms="10844" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AppiumConfigure -->
-        <test-method signature="scrollGestureActMethod1()[pri:0, instance:appiumBasics.ScrollGesture@45752059]" started-at="2024-10-02T16:43:40 IST" name="scrollGestureActMethod1" finished-at="2024-10-02T16:43:49 IST" duration-ms="8964" status="PASS">
+        <test-method signature="keyActions()[pri:0, instance:appiumBasics.KeysActionPerforms@292b08d6]" started-at="2024-10-03T16:42:35 IST" name="keyActions" finished-at="2024-10-03T16:42:53 IST" duration-ms="17116" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scrollGestureActMethod1 -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:appiumBasics.ScrollGesture@45752059]" started-at="2024-10-02T16:43:49 IST" name="tearDown" finished-at="2024-10-02T16:43:50 IST" duration-ms="1021" status="PASS">
+        </test-method> <!-- keyActions -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:appiumBasics.KeysActionPerforms@292b08d6]" started-at="2024-10-03T16:42:53 IST" name="tearDown" finished-at="2024-10-03T16:42:53 IST" duration-ms="837" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- appiumBasics.ScrollGesture -->
+      </class> <!-- appiumBasics.KeysActionPerforms -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

@@ -81,6 +81,19 @@ public class BaseTest
 	}
 	
 	
+	public void swipeAction(WebElement element,String direction)
+	{
+		((JavascriptExecutor)driver).executeScript("mobile: swipeGesture", ImmutableMap.of("elementId",((RemoteWebElement)element)
+				.getId(),
+				"direction",direction,
+				"percent",0.25));
+	}
+	
+	public void dragAndDropAction(WebElement element,int xCordinate,int yCordinate) {
+		((JavascriptExecutor)driver).executeScript("mobile: dragGesture", ImmutableMap.of("elementId",((RemoteWebElement)element).getId(),
+				"endX",xCordinate,
+				"endY",yCordinate));
+	}
 	
 	@AfterClass
 	public void tearDown()
