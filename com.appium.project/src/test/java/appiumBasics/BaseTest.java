@@ -46,7 +46,8 @@ public class BaseTest
 		
 		UiAutomator2Options options = new UiAutomator2Options();
 		options.setDeviceName("Medium Phone API 31"); // Emulator
-		options.setApp("D://Framework_Workspace//com.appium.project//src//test//java//appResources//ApiDemos-debug.apk");
+		//options.setApp("D://Framework_Workspace//com.appium.project//src//test//java//appResources//ApiDemos-debug.apk");
+		options.setApp("D://Framework_Workspace//com.appium.project//src//test//java//appResources//General-Store.apk");
 		
 		driver = new AndroidDriver(url,options);
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
